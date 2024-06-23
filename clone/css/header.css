@@ -1,0 +1,88 @@
+/****************************************
+-----------------HEADER------------------
+****************************************/
+/*Default for screen size < 600px*/
+
+/*Header to ocupy all the screen whidth wise*/
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e3e6f3;
+    box-shadow: 0 4px 5px -3px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2em;
+}
+
+header > nav > :not(:last-child) {
+    display: none;  /*Nav buttons not showed*/
+}
+
+header > nav > :last-child {
+    display: inline;    /*Hamburger menu showed*/
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+
+header > nav > :last-child > a{
+    text-decoration: none;
+}
+
+header > nav > :last-child > a:link, header > nav > :last-child > a:visited {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 1.75em 6em;
+    }
+
+    header > nav > :last-child {
+        display: none; /* Show on screens wider than 600px */
+    }
+
+    header > nav > :not(:last-child) {
+        display: inline;
+        margin: 0 1em;
+        padding: 0;
+    }
+    
+    header > nav > a {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    header > nav > a:hover, header > nav > .selected {    
+        color: var(--primary-color);
+        position: relative;
+    }
+
+    header > nav > a::after, header > nav > .selected::after {    
+        content: "";
+        position: absolute;
+        background-color: var(--primary-color);
+        top: 1em;
+        height: 2px;
+        left: 0;
+    }
+
+    header > nav > .selected::after {    
+        width: 50%;
+    }
+
+    header > nav > a::after {
+        width: 0%;
+    }
+
+    header > nav > a:hover::after {
+        transition: width 0.05s ease-out;
+        width: 50%;
+    }
+}
