@@ -1,23 +1,36 @@
-<!-- 
-    This HTML file is a clone of the original website created by [Original Author's Name].
-    It has been modified and customized by [Your Name] to practice CSS and HTML skills.
+# E-commerce Website
 
-    [Provide a brief description of the project and its purpose.]
+Reinterpretation of an existing project made by Alireza Tayebinejad.
 
-    [Add any additional information or notes about the code.]
+## Description
 
-    [Document any important functions, classes, or components used in the code.]
+The aim of this project is to enhance my HTML5 and CSS3 skills, and implement best practices like mobile-first design by reinterpreting an already developed e-commerce website.
 
-    [Include any relevant usage instructions or examples.]
+## Features
 
-    [Mention any dependencies or requirements for running the project.]
+- Mobile-first design
+- Responsive design
 
-    [Add any acknowledgments or credits for resources used in the project.]
+## Installation
 
-    [Include any licensing information if applicable.]
+1. Clone the repository:
 
-    [Add any other relevant information or notes.]
+    ```bash
+    git clone https://github.com/mpenalverguilera/ecommerce-website-clone.git
+    ```
 
-    Author: [Your Name]
-    Date: [Current Date]
--->
+2. Navigate to your project directory:
+
+    ```bash
+    cd ecommerce-website-clone
+    ```
+
+3. Open the project with your favorite browser:
+
+    ```bash
+    firefox path/to/yourprojectname/index.html
+    ```
+
+## Acknowledgements
+
+Special thanks to Alireza Tayebinejad from [@vibracode](https://www.github.com/octokatherine) who developed the original project.
