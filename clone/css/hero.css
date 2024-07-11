@@ -4,116 +4,123 @@
 .hero {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-image: url("../../original/images/hero.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 61% 40%;
-    margin-top: 5.5em;
-    height: calc(100vh - 5.5em);
-}
-
-.text-deal {
     text-align: center;
+    margin-top: 88px;
+    height: calc(100vh - 88px);
+    background-color: var(--background-color);
 }
 
-.text-deal > h1 {
+
+.hero > h1 {
     margin-bottom: 0.5em;
 }
 
-.text-deal > h1 > span {
+.hero > h1 > span {
     display: block;
     font-weight: 900;
 }
 
-.text-deal > h1 > :first-child {
+.hero > h1 > :first-child {
     color: white;
     font-size: 1.15em;
     font-weight: 600;
-    margin: 4em 0 0 0;
+    margin-top: 1em;
 }
 
-.text-deal > h1 > :nth-child(2) {
+.hero > h1 > :nth-child(2) {
     font-size: 1.35em;
     color: var(--secondary-color);
     margin: 0;
 }
 
-.text-deal > h1 > :nth-child(3) {
+.hero > h1 > :nth-child(3) {
     color: var(--primary-color);
     font-size: 1.35em;
 }
 
-.text-deal > p {
+.hero > p {
     font-weight: 300;
-    margin-top: 0;
+    margin-top: -3em;
 }
 
 .hero > button {
-    display: none;
+    display: block;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: none;
+    background-image: url("../../original/images/button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 1em 2em;
+}
+
+.hero > button > a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/*Eliminate the style of the anchor*/
+.hero > button > a:visited,
+.hero > button > a:hover,
+.hero > button > a:focus {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.hero > img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px) {
     .hero {
-        margin-top: 6.83em;
-        height: calc(100vh - 6.83em);
-        background-position: 70% 20%;
+        margin-top: 82px;
+        height: calc(100vh - 82px);
         align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    .text-deal {
+        justify-content:center;
         text-align: left;
-        padding: 10em 0 0 5em;
-        width: calc(16*3rem);
+        background-image: url("../../original/images/hero.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 61% 40%;
     }
     
-    .text-deal > h1 > span {
+    .hero > h1 > span {
         font-weight: 900;
     }
     
-    .text-deal > h1 {
-        margin-bottom: 0.5em;
+    .hero > h1 {
+        margin: 6em 0em 0em 10rem ;
     }
     
-    .text-deal > h1 > :first-child {
-        font-size: 2em;
+    .hero > h1 > :first-child {
+        font-size: 3em;
         font-weight: 600;
         margin: 0;
     }
     
-    .text-deal > h1 > :not(:first-child) {
-        font-size: 3em;
+    .hero > h1 > :not(:first-child) {
+        font-size: 4em;
     }
     
-    .text-deal > p {
-        font-size: 1.25em;
+    .hero > p {
+        font-size: 1.5em;
+        margin: 2em 0em 2em 10rem;
     }
     
     .hero > button {
-        display: block;
-        font-size: 1.5em;
-        font-weight: 600;
-        color: var(--primary-color);
-        margin: 0 0 5em 7.5em;
-        background-color: transparent;
-        border: none;
-        background-image: url("../../original/images/button.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        font-size: 2em;
+        margin: 0 0 5em 10rem;
         padding: 0.75em 4em;
     }
 
-    .hero > button > a {
-        text-decoration: none;
-        color: var(--primary-color);
-    }
-    /*Eliminate the style of the anchor*/
-    .hero > button > a:visited,
-    .hero > button > a:hover,
-    .hero > button > a:focus {
-        text-decoration: none;
-        color: var(--primary-color);
+    .hero > img {
+        display: none;
     }
 }
