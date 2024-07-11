@@ -4,7 +4,7 @@ Reinterpretation of an existing project made by Alireza Tayebinejad.
 
 ## Description
 
-The aim of this project is to enhance my HTML5 and CSS3 skills, and implement best practices like mobile-first design by reinterpreting an already developed e-commerce website.
+The aim of this project is to enhance my HTML5 and CSS3 skills and implement best practices like mobile-first design by reinterpreting an already developed e-commerce website.
 
 ## Features
 
@@ -33,4 +33,4 @@ The aim of this project is to enhance my HTML5 and CSS3 skills, and implement be
 
 ## Acknowledgements
 
-Special thanks to Alireza Tayebinejad from [@vibracode](https://www.github.com/octokatherine) who developed the original project.
+Special thanks to Alireza Tayebinejad from [@vibracode](https://github.com/vibracode) who developed the original project.
