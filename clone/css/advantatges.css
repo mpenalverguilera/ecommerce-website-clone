@@ -5,13 +5,13 @@
 .advantatges {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
     margin-top: 1em;
 }
 
 .advantatge {
     display: flex;
     flex-direction: column;
+    margin: 0.5em auto;
     border: rgb(204, 231, 208) 1px solid;
     width: 80%;
     border-radius: 4px;

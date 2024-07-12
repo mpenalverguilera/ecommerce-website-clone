@@ -5,6 +5,7 @@
 
 /*Header to ocupy all the screen whidth wise*/
 header {
+    z-index: 1000;
     display: flex;
     position: fixed;
     top: 0;

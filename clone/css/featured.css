@@ -1,0 +1,146 @@
+/****************************************
+----------------FEATURED-----------------
+****************************************/
+
+.featured > h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 1em auto 0;
+}
+
+.featured p {
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 300;
+    margin: 0.25em auto;
+}
+
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 1em auto;
+    border: 1px solid #ebebeb;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.03) 20px 20px 34px 5px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 1em;
+    border: none;
+    margin: 0 0 0.5em;
+}
+
+.product >  p {
+    margin: 0;
+    text-align: left;  
+}
+
+.product > .brand-name{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: gray;
+}
+
+.product > .product-name {
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+    margin: 0.5em 0 0.3em;
+}
+
+.product .product-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-width: 50%;
+}
+
+.product > .product-rating > img {
+    width: 1em;
+    margin-right: 0.2em;
+}
+
+.product > .price {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--primary-color);
+}  
+
+.product > button {
+    position: absolute;
+    background-color: #c7e9e75e;
+    color : var(--primary-color);
+    bottom: 1em;
+    right: 1em;
+    border: none;
+    width: 3.25em;
+    height: 3.25em;
+    border-radius: 50%;
+    padding: 0.5em 1em;
+    margin: 0.5em 0 0;
+}
+
+.product > buutton {
+    position: absolute;
+    background-color: #c7e9e75e;
+    color : var(--primary-color);
+    bottom: 1em;
+    right: 1em;
+    border: none;
+    width: 3.25em;
+    height: 3.25em;
+    border-radius: 50%;
+    padding: 0.5em 1em;
+    margin: 0.5em 0 0;
+}
+
+.product > button > img {
+    height: 100%;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 600px) {
+    .featured > h2 {
+        font-size: 4em;
+        margin-bottom: 0.8em;
+    }
+    
+    .featured p {
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+    }
+
+    .featured > .row-products {
+        display: flex;
+        flex-direction: row;
+        margin: 0 2%;
+        font-size: 1.4em;
+    }
+
+    .featured > :nth-child(4) {
+        justify-content: space-evenly;
+    }
+
+    .featured > .row-products > .product {
+        margin: 1em 1%;
+    }
+
+    .featured > :nth-child(4) > .product {
+        max-width: calc(94%/6);
+    }
+
+    .product > button {
+        width: 3.5em;
+        height: 3.5em;
+        cursor: pointer;
+    }
+
+    .product > button > img {
+    }
+}
