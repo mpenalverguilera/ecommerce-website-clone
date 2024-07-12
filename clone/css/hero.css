@@ -47,7 +47,6 @@
 
 .hero > button {
     display: block;
-    font-size: 1.25em;
     font-weight: 600;
     color: var(--primary-color);
     background-color: transparent;
@@ -111,13 +110,13 @@
     
     .hero > p {
         font-size: 1.5em;
-        margin: 2em 0em 2em 10rem;
+        margin: 1em 0em 1em 10rem;
     }
     
     .hero > button {
-        font-size: 2em;
+        font-size: 1.5em;
         margin: 0 0 5em 10rem;
-        padding: 0.75em 4em;
+        padding: 1.2em 5.16em;
     }
 
     .hero > img {

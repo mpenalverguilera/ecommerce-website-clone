@@ -14,7 +14,6 @@
     flex-direction: column;
     border: rgb(204, 231, 208) 1px solid;
     width: 80%;
-    margin: 1em auto;
     border-radius: 4px;
     padding: 1em 0;
 }
@@ -25,7 +24,6 @@
 }
 
 .advantatge > figcaption {
-    font-size: 1em;
     font-weight: 600;
     margin: 1em auto 0em;
     border: none;
@@ -59,5 +57,27 @@
 }
 
 @media only screen and (min-width: 600px) {
+
+    .advantatges {
+        display: flex;
+        justify-content: space-between;
+        margin: 5em 6em;
+    }
+
+    .advantatge {
+        width: 10%;        
+        box-shadow: rgba(0, 0, 0, 0.03) 20px 20px 34px 5px;
+        padding: 2em 0;
+    }
+
+    .advantatge > img {
+        margin: 0 1em;
+    }
+
+    .advantatge > figcaption {
+        margin: 1em auto 0;
+        font-size: 1.25em;
+        padding: 0.5em 1em;
+    }
 
 }
