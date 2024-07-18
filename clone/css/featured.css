@@ -117,27 +117,27 @@
     }
 
     .featured > .row-products {
-        display: flex;
-        flex-direction: row;
-        margin: 0 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
         font-size: 1.4em;
+        gap: 2em;
     }
 
-    .featured > :nth-child(4) {
-        justify-content: space-evenly;
-    }
 
     .featured > .row-products > .product {
-        margin: 1em 1%;
-    }
-
-    .featured > :nth-child(4) > .product {
-        max-width: calc(94%/6);
+        margin: 0 auto;
     }
 
     .product > button {
         width: 3.5em;
         height: 3.5em;
         cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .featured > .row-products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
