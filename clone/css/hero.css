@@ -58,16 +58,10 @@
     padding: 1em 2em;
 }
 
-.hero > button > a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-/*Eliminate the style of the anchor*/
+.hero > button > a,
 .hero > button > a:visited,
 .hero > button > a:hover,
 .hero > button > a:focus {
-    text-decoration: none;
     color: var(--primary-color);
 }
 

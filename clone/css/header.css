@@ -29,13 +29,8 @@ header > nav > :last-child {
     font-size: 1.5em;
 }
 
-header > nav > :last-child > a{
-    text-decoration: none;
-}
-
 header > nav > :last-child > a:link, header > nav > :last-child > a:visited {
     color: var(--secondary-color);
-    text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
