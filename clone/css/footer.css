@@ -3,6 +3,87 @@
 ****************************************/
 /*Default for screen size < 600px*/
 
-.contact-container > img {
-    display: none;
+footer {
+    padding: 0 2em;
+    font-size: 1.5em;
+}
+
+footer > article {
+    margin: 0 0 1.5em;
+}
+
+footer > article > h2 {
+    margin: 0 0 -0.05em;    
+}
+
+footer > article > ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer > article > ul > li {
+    color: #444;
+    list-style: none;
+    margin: 0.5em 0 0;
+}
+
+
+footer > article > ul > li > a {
+    color: #444;
+}
+
+.fa-brands {
+    color: #444;
+}
+
+.install-container > h2 {
+    margin: 0 0 8px;
+}
+
+.install-container > figcaption {
+    margin-bottom: 4px;
+}
+
+.install-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+.install-container > div > a > img {
+    border: solid 1px var(--primary-color);
+    border-radius: 5px;
+}
+
+.payment-container > figcaption {
+    margin-bottom: 0.25em;
+}
+
+
+@media only screen and (min-width: 600px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-facebook:hover{
+        color: #3b5998 !important;
+    }
+
+    .fa-youtube:hover{
+        color: #c4302b  !important;
+    }
+
+    .fa-instagram:hover{
+        color: #8a3ab9  !important;
+    }
+
+    .fa-x-twitter:hover{
+        color: #00acee  !important;
+    }
+
+
+    
 }

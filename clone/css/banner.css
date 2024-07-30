@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     background-image: url(../../original/images/banner/b2.jpg);   
-    margin: 4em 0;
+    margin: 4em 0 2em;
 }
 
 .banner > h2, .banner > p {
@@ -50,6 +50,7 @@
 @media only screen and (min-width: 600px) {
     .banner {
         font-size: 1.5em;
+        margin-bottom: 4em;
     }
 
     
