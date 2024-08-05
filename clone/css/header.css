@@ -38,6 +38,11 @@ header > nav > :last-child > a:link, header > nav > :last-child > a:visited {
         padding: 1.75em 6em;
     }
 
+    .fa-cart-shopping:hover {
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+
     header > nav > :last-child {
         display: none; /* Show on screens wider than 600px */
     }
