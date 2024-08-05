@@ -5,7 +5,6 @@
 
 footer {
     padding: 0 2em;
-    font-size: 1.5em;
 }
 
 footer > article {
@@ -22,18 +21,22 @@ footer > article > ul {
 }
 
 footer > article > ul > li {
-    color: #444;
+    color: #555;
     list-style: none;
     margin: 0.5em 0 0;
 }
 
 
 footer > article > ul > li > a {
-    color: #444;
+    color: #555;
 }
 
 .fa-brands {
-    color: #444;
+    color: #555;
+}
+
+.contact-container > img {
+    display: none;
 }
 
 .install-container > h2 {
@@ -42,6 +45,7 @@ footer > article > ul > li > a {
 
 .install-container > figcaption {
     margin-bottom: 4px;
+    color: #555;
 }
 
 .install-container > div {
@@ -59,6 +63,7 @@ footer > article > ul > li > a {
 
 .payment-container > figcaption {
     margin-bottom: 0.25em;
+    color: #555;
 }
 
 
@@ -66,6 +71,32 @@ footer > article > ul > li > a {
     footer {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
+        font-size: 1.4em;
+    }
+
+    footer > article > h2,
+    footer > div > article > h2 {
+        font-size: 1.1em;
+        margin-bottom: 1em;
+    }
+
+    footer > article > ul > li {
+        margin-bottom: 1em;
+    }
+
+    footer > article > ul > li > a:hover {
+        color: var(--primary-color);
+    }
+
+
+    .contact-container > img {
+        margin-bottom: 1.5em;
+        display: block;
+    }
+
+    .social-container {
+        margin-top: 0.5em;
     }
 
     .fa-facebook:hover{
@@ -84,6 +115,10 @@ footer > article > ul > li > a {
         color: #00acee  !important;
     }
 
-
+    .miscellaneous {
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+    }
     
 }

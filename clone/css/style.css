@@ -28,6 +28,10 @@ main {
     font-weight: 600;
 }
 
+.black {
+    color: #000;
+}
+
 
 @media only screen and (min-width: 600px) {
     :root {
