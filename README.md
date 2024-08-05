@@ -33,4 +33,4 @@ The aim of this project is to enhance my HTML5 and CSS3 skills and implement bes
 
 ## Acknowledgements
 
-Special thanks to Alireza Tayebinejad from [@vibracode](https://github.com/vibracode) who developed the original project.
+Special thanks to Alireza Tayebinejad from [@vibracode](https://www.github.com/octokatherine) who developed the original project.
