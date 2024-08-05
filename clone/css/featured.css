@@ -86,19 +86,6 @@
     margin: 0.5em 0 0;
 }
 
-.product > buutton {
-    position: absolute;
-    background-color: #c7e9e75e;
-    color : var(--primary-color);
-    bottom: 1em;
-    right: 1em;
-    border: none;
-    width: 3.25em;
-    height: 3.25em;
-    border-radius: 50%;
-    padding: 0.5em 1em;
-    margin: 0.5em 0 0;
-}
 
 .product > button > img {
     height: 100%;

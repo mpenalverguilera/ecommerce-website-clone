@@ -48,6 +48,7 @@
 .hero > button {
     display: block;
     font-weight: 600;
+    font-size: 1.1em;
     color: var(--primary-color);
     background-color: transparent;
     border: none;
@@ -55,7 +56,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding: 1em 2em;
+    padding: 2em 4em;
 }
 
 .hero > button > a,
